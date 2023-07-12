@@ -10,7 +10,6 @@ cookies = {
     'fr': '0wCY6rArDP8GNB7DK..BkqupG.ob.AAA.0.0.BkrpIz.AWXMLgNBgaw',
 }
 
-headers = {
     headers = {
     'authority': 'm.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
