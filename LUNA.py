@@ -5,16 +5,19 @@ import requests
 cookies = {
     'datr': 'ROqqZCfBZWwA6M7j06ZEbe27',
     'sb': 'ROqqZOsVz1Fdg9ZekRY2uEEX',
-    'fr': '0wCY6rArDP8GNB7DK..BkqupG.ob.AAA.0.0.BkqupR.AWU2JMcvOnQ',
-    'dnonce': 'AWkTpI_Ci17nhm0ShZ7K_PG1EzkUWdqv12Vp7tBenoWFAFqFGEb1GcRKlp2b5FEBV_H3PuovtgB44jomyMpt3KAW',
+    'm_pixel_ratio': '2.75',
+    'wd': '393x720',
+    'fr': '0wCY6rArDP8GNB7DK..BkqupG.ob.AAA.0.0.BkrpIz.AWXMLgNBgaw',
 }
 
 headers = {
-    'authority': 'mbasic.facebook.com',
+    headers = {
+    'authority': 'm.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'ar-EG,ar;q=0.9,en-US;q=0.8,en;q=0.7',
     'cache-control': 'max-age=0',
-    # 'cookie': 'datr=ROqqZCfBZWwA6M7j06ZEbe27; sb=ROqqZOsVz1Fdg9ZekRY2uEEX; fr=0wCY6rArDP8GNB7DK..BkqupG.ob.AAA.0.0.BkqupR.AWU2JMcvOnQ; dnonce=AWkTpI_Ci17nhm0ShZ7K_PG1EzkUWdqv12Vp7tBenoWFAFqFGEb1GcRKlp2b5FEBV_H3PuovtgB44jomyMpt3KAW',
+    # 'cookie': 'datr=ROqqZCfBZWwA6M7j06ZEbe27; sb=ROqqZOsVz1Fdg9ZekRY2uEEX; m_pixel_ratio=2.75; wd=393x720; fr=0wCY6rArDP8GNB7DK..BkqupG.ob.AAA.0.0.BkrpIz.AWXMLgNBgaw',
+    'referer': 'https://www.google.com/',
     'sec-ch-prefers-color-scheme': 'light',
     'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
     'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
@@ -23,12 +26,13 @@ headers = {
     'sec-ch-ua-platform-version': '"11.0.0"',
     'sec-fetch-dest': 'document',
     'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'none',
+    'sec-fetch-site': 'cross-site',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
     'user-agent': 'Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36',
     'viewport-width': '980',
 }
+
 
 params = {
     'refid': '8',
