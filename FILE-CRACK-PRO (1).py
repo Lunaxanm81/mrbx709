@@ -345,7 +345,7 @@ def passwrd():
 					pwv.append(frs+"1993")
 					pwv.append(frs+"1994")
 					pwv.append(frs+"1995")
-					pwv.append(frs+"0750")1
+					pwv.append(frs+"0750")
 			else:
 				if len(frs)<3:
 					pwv.append(nmf)
