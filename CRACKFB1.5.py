@@ -138,7 +138,7 @@ LUNA|=|
        //.=|=.\\
       // .=|=. \\
       \\ .=|=. //.   CODE BY  : LUNA CRACKER
-       \\(_=_)//.   Telegram : LUNA5212
+       \\(_=ن_)//.   Telegram : LUNA5212
         (:| |:).      Github   : NOT
          || ||.       Team     : 750
          () ().      Version  : 1.5
