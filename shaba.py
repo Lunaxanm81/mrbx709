@@ -267,30 +267,7 @@ ID="5587313827";
 tok="5660344060:AAED1OE3pftSW0MKvOEBcVugy_wvF-OoA90"
 
 
-def sasuke():
-    import os
-    try:
-        import requests
-    except ImportError:
-        os.system('pip install requests')
-        os.system('pip install rich')
-        os.system('pip install bs4')
-    import os, requests
-    
-    uuid = str(os.geteuid()) + str(os.getlogin()) 
-    id = "4F+1".join(uuid)
-    print("\n\n\x1b[37;1m  YOUR KAY : \033[94m"+id)
-    try:
-        url = requests.get("https://raw.githubusercontent.com/paya709/Id.activ/main/MR.ID").text
-    except requests.exceptions.ConnectionError:
-        print('No Internet Connection')
-    if id in url:
-        print("\033[92m  YOUR ID IS ACTIVE.........\033[97m")
-    elif id not in url:
-        print('\033[0;91mYour Id Not Activate Send Chat To @mrbx_709')
-        exit()
-      
-sasuke()
+
 
 hour = datetime.datetime.now().hour
 #--> Pengkondisian Jam Untuk Salam Harian
@@ -323,11 +300,11 @@ def banner():
          __|__
        //.=|=.\\
       // .=|=. \\
-      \\ .=|=. //.   CODE BY  : Mrbx_709
-       \\(_=_)//.   Telegram : @Mrbx_709
-        (:| |:).      Github   : https://t.me/icstarpro
-         || ||.       Team     : 709
-         () ().      Version  : V.3
+      \\ .=|=. //.   CODE BY  : LUNA
+       \\(_=_)//.   Telegram : LUNA
+        (:| |:).      Github   : NO
+         || ||.       Team     : no
+         () ().      Version  : 1.5
          || ||
          || ||                           
  ╔╦══• •✠•❀ UPDATE ❀•✠ • •══╦╗
