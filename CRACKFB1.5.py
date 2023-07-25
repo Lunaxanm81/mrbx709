@@ -134,7 +134,7 @@ def banner():
           .-.
          (o.o)
           |=|
-LUNA|=|
+      LUNA|=|
        //.=|=.\\
       // .=|=. \\
       \\ .=|=. //.   CODE BY  : LUNA CRACKER
