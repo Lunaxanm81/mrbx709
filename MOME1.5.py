@@ -241,7 +241,7 @@ FUCK SYTEM BAYPASS
 TELEGRAM;RAWA88
 CRACK FACEBOOK
 NEW UPDATE 1.5
-UPDATE BY RAWA
+UPDATE BY RAWA 750
 
 --------------------------------------------------------
                                                                    
