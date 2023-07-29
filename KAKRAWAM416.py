@@ -230,9 +230,10 @@ def banner():
 ───▐██──▀▀──▀▀──██▌───
 ──▄████▄──▐▌──▄████▄──
 
-AUTHOR: 𝐌𝐑_𝐃𝐘𝐍𝐎
-UPDATED BY: 𝐌𝐑_𝐃𝐘𝐍𝐎
-TELEGRAM: @i4m_DYNO
+AUTHOR: 𝐌𝐑_BLACK
+UPDATED BY: RAWA
+TELEGRAM: NO
+VIRZON: 1.5
 ---------------------------------------------  
                                                                    
               
