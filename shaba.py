@@ -300,11 +300,11 @@ def banner():
          __|__
        //.=|=.\\
       // .=|=. \\
-      \\ .=|=. //.   CODE BY  : Mrbx_709
-       \\(_=_)//.   Telegram : @Mrbx_709
-        (:| |:).      Github   : https://t.me/icstarpro
-         || ||.       Team     : 709
-         () ().      Version  : V.3
+      \\ .=|=. //.   CODE BY  : no
+       \\(_=_)//.   Telegram : no
+        (:| |:).      Github   : no
+         || ||.       Team     : no
+         () ().      Version  : 1.5
          || ||
          || ||                           
  ╔╦══• •✠•❀ UPDATE ❀•✠ • •══╦╗
@@ -318,7 +318,7 @@ def banner():
 [+] LICENSE KEY NOT APPROVED
 [+] PREMIUM STATUS
 ----------------------------------------------------------------------
-[+] TOOL_BY MRBX
+[+] TOOL_BY luna
 [+] CLONING HAS STARTED
 [+] PROCESSING
 ----------------------------------------------------------------------
