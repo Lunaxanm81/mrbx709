@@ -223,6 +223,8 @@ def banner():
  CHANAL = LUNACRACKER🐈‍⬛
  VERSION = 1.0.0💖🐐
  NEW TOOL✌
+ NAME TOOL FAST💀
+ WAIT AND SEE☠
 ====================================
 			''')
 #--------------------[ BAGIAN-MASUK ]--------------#
