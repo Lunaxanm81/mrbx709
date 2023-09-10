@@ -271,10 +271,10 @@ logo ="""
 \033[1;37m88~~~   88`8b   88    88 
 \033[1;37m88      88 `88. `8b  d8' 
 \033[1;37m88      88   YD  `Y88P'  
-                                    Author  : DYAR
-                                    Telegram: ‌@ba8_557
-                                    Github  : DYAR-FB
-                                    Version : N20
+                                    Author  : TEST
+                                    Telegram: ‌TEST
+                                    Github  : TEST
+                                    Version : 1.5
 .0
 ------------------------------------------------------------                              I'm PRO For Cracking 🙂                                                              ------------------------------------------------------------"""
 os.system('clear')
